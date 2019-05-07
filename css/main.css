@@ -1,11 +1,21 @@
+
 body {
-  margin: 30px auto;
+  margin: 20px auto;
   max-width: 1000px;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
-  padding: 30px 20px;
+  padding: 30px 0px;
   text-align: center;
   background-color: black;
+  color: white;
+}
+
+a:link{
+  color: white;
+  padding: 0px 5px 0px 5px;
+}
+
+a:visited{
   color: white;
 }
 
@@ -13,9 +23,18 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
+h4 {
+  padding: 20px 0px 10px 0px;
+}
+
 img {
   display: block;
   margin: 0px auto;
+  text-align: center;
+}
+
+.links {
+  padding: 0px 5px 0px 5px;
   text-align: center;
 }
 
@@ -28,6 +47,248 @@ img {
 
 .portfolio-item {
   margin-top: 60px;
-  padding: 40px;
+  padding: 20px;
   background-color: black;
 }
+
+#alexpage0{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage1{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage2{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage3{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage4{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage5{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage6{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage7{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage8{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage9{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage10{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage11{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage12{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage13{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage14{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage15{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage16{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage17{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage18{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage19{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage20{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage21{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage22{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage23{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage24{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage25{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage26{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage27{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexpage28{
+	float:left;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 0px;
+}
+
+#alexpage29{
+	float:right;
+	margin: 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+
+#alexpage30{
+	margin: 1%;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	color: black
+}
+
+#alexLandscapeRight{
+	float:right;
+	margin: 10% -5% 2% -5%;
+	width: 50%;
+  padding: 0px 0px 0px 100px;
+}
+/* #div5{
+	color: black;
+	background-color: #d307ff;
+	margin: 5%;
+	padding: 6px;
+	clear: both;
+} */
