@@ -1,6 +1,7 @@
 
+
 body {
-  margin: 20px auto;
+  margin: 10px auto;
   max-width: 1000px;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
@@ -23,8 +24,12 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
+h3 {
+  padding: 0px 0px -20px 0px;
+}
+
 h4 {
-  padding: 20px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
 }
 
 img {
@@ -70,208 +75,10 @@ img {
 	float:right;
 	margin: 2% -5%;
 	width: 50%;
-  padding: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 0px;
 }
 
 #alexpage3{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage4{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage5{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage6{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage7{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage8{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage9{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage10{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage11{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage12{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage13{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage14{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage15{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage16{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage17{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage18{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage19{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage20{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage21{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage22{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage23{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage24{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage25{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage26{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage27{
-	margin: 1%;
-	width: 100%;
-	clear: both;
-	text-align: center;
-	color: black
-}
-
-#alexpage28{
-	float:left;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 0px;
-}
-
-#alexpage29{
-	float:right;
-	margin: 2% -5%;
-	width: 50%;
-  padding: 0px 0px 0px 100px;
-}
-
-#alexpage30{
 	margin: 1%;
 	width: 100%;
 	clear: both;
@@ -283,7 +90,7 @@ img {
 	float:right;
 	margin: 10% -5% 2% -5%;
 	width: 50%;
-  padding: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 0px;
 }
 
 #alexLandscapeRight2{
@@ -300,10 +107,76 @@ img {
   padding: 0px 0px 0px 0px;
 }
 
-/* #div5{
-	color: black;
-	background-color: #d307ff;
-	margin: 5%;
-	padding: 6px;
-	clear: both;
-} */
+/*  Creates box layout model to all elements, but allowing components to change */
+   * {
+     box-sizing: border-box;
+   }
+
+   /* Create three equal columns that float next to each other */
+     .column {
+       float: left;
+       width: 33.33%;
+       padding: 10px;
+     }
+
+   /* Clear floats after the columns */
+     .row:after {
+       content: "";
+       display: table;
+       clear: both;
+     }
+
+   /* Styles the description text under each  */
+     .desc {
+       padding: 10px;
+       font-size: 18pt;
+       text-align: center;
+     }
+
+/* overlay darken */
+
+img:hover {
+  opacity: .5;
+  transition: .5s ease;
+  background-color: inherit;
+}
+
+.container {
+      position: relative;
+      width: 50%;
+     }
+
+.image {
+       display: block;
+       width: 100%;
+       height: auto;
+     }
+
+.overlay {
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       height: 100%;
+       width: 100%;
+       opacity: 1;
+       transition: .5s ease;
+       background-color: #000000;
+     }
+
+.container:hover .overlay {
+       opacity: 0.5;
+     }
+
+.text {
+       color: white;
+       font-size: 20px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       -webkit-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+       text-align: center;
+     }
